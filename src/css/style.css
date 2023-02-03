@@ -100,9 +100,8 @@
     left: 0;
     background-color: rgba(52, 52, 50, 0.749);
     opacity: 0; 
-    /* visibility: hidden; */
+    visibility: hidden;
 }
-
 
 .content-modal { 
     display: flex;
@@ -131,8 +130,7 @@
     height: 350px;
 }
 
-.modal .open { 
+.modal.open { 
     opacity: 1; 
-    visibility: visibility;
-
+    visibility: visible;
 }
