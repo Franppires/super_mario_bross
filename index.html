@@ -8,14 +8,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./src/css/index.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
     
     <title>Super Mario Bros - O Filme</title>
 </head>
 <body>
-    <div>
-        <video class="movie" autoplay loop muted>
-            <source src="./src/movie/video-mario.mp4" type="video/mp4" />
+    <div class="background-video">
+        <video class="video" autoplay loop muted>
+             <source src="./src/movie/video-mario.mp4" type="video/mp4" /> 
         </video>
     </div>
     <header class="header">
@@ -24,8 +26,8 @@
         </a>
         <nav>
             <ul class="menu">
-                <li>Home</li>
-                <li>Detalhes</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Detalhes</a></li>
             </ul>
         </nav>
     </header>
@@ -33,9 +35,16 @@
         <div class="information">
             <img class="image-title" src="./src/img/titulo.png" alt="imagem do titulo">
             <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo accusamus quis quo pariatur ea! Dignissimos, commodi reprehenderit illo nemo eum hic cum rem error facere placeat cumque quaerat eligendi ut.</p>
-            <button>Veja o trailler</button>
+            <button class="button-trailler">Veja o trailler</button>
         </div>
         <img class="mario" src="./src/img/super-mario-chars.png" alt="mario">
+
+        <div class="modal">
+            <div class="content-modal">
+                <sapn class="close-modal">X</sapn>
+                <iframe id="video" width="560" height="315" src="./src/movie/video-mario.mp4" title="trailer oficial"></iframe>
+            </div>
+        </div>
     </main>
 </body>
 </html>

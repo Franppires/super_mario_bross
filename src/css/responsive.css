@@ -1,0 +1,59 @@
+
+@media (max-width: 1200px) { 
+
+    body { 
+        background-color: #f44336;
+    }
+
+    .background-video { 
+        display: none;
+    }
+    .container { 
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        gap: 2rem;
+    }
+
+    .container .mario { 
+        max-width: 50%
+    }
+
+    .container .information {
+        display: flex;
+        align-items: center; 
+        flex-direction: column; 
+    }
+
+    .container .description { 
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .container .button-trailler { 
+        background-color: #263238;
+    
+    }
+}
+
+@media (max-width: 500px) { 
+    .header { 
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    .container .image-title {
+        max-width: 75%;
+    }
+
+    .modal .close-modal { 
+        width: 30px; 
+        line-height: 30px;
+    }
+
+    #video { 
+        width: 250px;
+        height: 169px;
+    }
+}

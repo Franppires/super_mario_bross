@@ -1,0 +1,138 @@
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header .logo { 
+    width: 65px;
+}
+
+.header .menu { 
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 1rem;
+    list-style: none;
+    
+}
+
+.header nav li a { 
+    text-decoration:none;
+    color: #ffffff;
+    font-size: 25px; 
+    padding: 10px 20px; 
+    border-radius: 50px;
+    transition: all 0.5s ease
+}
+
+.header nav li a:hover {
+    background-color: #d5011d
+}
+
+.container { 
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 104px);
+    padding: 0 30px 30px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+ {
+    max-width: 500px;
+}
+
+.container .description { 
+    color: #a8adb7;
+    width: 80%;
+    font-size: 18px;
+    margin: 30px 0;
+}
+
+.container .button-trailler { 
+    background-color: #ff0021;
+    color:#ffffff;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    transition: 0.5s all ease-out;
+}
+
+.container .button-trailler:hover { 
+    transform: scale(1.1)
+}
+
+.background-video { 
+    position: absolute; 
+    z-index: -1;
+    width: 100vw; 
+    height: 100vh;
+    overflow: hidden; 
+}
+
+.background-video .video { 
+    height: 100vh;
+}
+
+.background-video::after { 
+    content: "";
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,1) 100%); 
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0; 
+    left: 0;
+}
+
+.modal { 
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(52, 52, 50, 0.749);
+    opacity: 0; 
+    /* visibility: hidden; */
+}
+
+
+.content-modal { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    border-radius: 5rem;
+    gap: 1rem;
+}
+
+.close-modal { 
+    background-color: #ffffff;
+    color: #f03a17; 
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 40px; 
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.modal iframe { 
+    border-width: 0;
+    width: 635px;
+    height: 350px;
+}
+
+.modal .open { 
+    opacity: 1; 
+    visibility: visibility;
+
+}
