@@ -1,6 +1,6 @@
 # super_mario_bross
 
-Evento do canal DEV EM DOBRO os irmão Ricardo e Roberto 
+Evento do canal DEV EM DOBRO os irmãos Ricardo e Roberto 
 
 ![image](https://user-images.githubusercontent.com/104803568/216675705-25ed4822-0386-4815-a1a2-8ced403a2cc7.png)
 ![image](https://user-images.githubusercontent.com/104803568/216675947-370f7fe1-198c-41a8-803d-578ad3df637f.png)
